@@ -3,7 +3,7 @@ import time
 import requests
 
 saved_clips = []
-filename = "" # <--- name of your text file where all your data would be stored
+filename = "Clips.txt" # <--- name of your text file where all your data would be stored
 interval = 1
 save_interval = 5
 delete_interval = 5
